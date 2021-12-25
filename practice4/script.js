@@ -2,9 +2,10 @@
 Напишите функцию min, принимающую два аргумента, и возвращающую минимальный из них.
 */
 
-var min = function(a,b){
-    if (a>b)
-     return (b)
-    if (a<b)
-    return (a)
+var min = function(a, b) {
+    if (a > b)
+     return (b);
+     
+    if (a < b)
+    return (a);
 }

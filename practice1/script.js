@@ -9,8 +9,9 @@
 #######
 */
 
-var a=''
-for(let i=0; i<8; i++ ){
-    a+='#'
+var a='';
+
+for (let i = 0; i < 8; i++) {
+    a += '#'
     console.log(a);
 }
