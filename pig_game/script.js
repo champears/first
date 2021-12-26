@@ -81,6 +81,7 @@ btnHold.addEventListener('click', function () {
       // Набрал, значит заканчиваем ЭТУ игру
       playing = false;
       diceEl.classList.add('hidden');
+      
 
       document
         .querySelector(`.player--${activePlayer}`)
