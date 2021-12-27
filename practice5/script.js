@@ -8,11 +8,10 @@
 Потестируйте её на 50 и 75. Попробуйте задать ей -1.*/
 
 function isEven(N){
-    if (N === 0) 
+    if (N === 0){ 
         return true;
-    else if (N === 1)
+    } else if (N === 1){
         return false;
-    else 
+    } else 
         return isEven(N-2);
-
 }

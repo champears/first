@@ -3,9 +3,7 @@
 */
 
 var min = function(a, b) {
-    if (a > b)
-     return (b);
-     
-    if (a < b)
-    return (a);
+    if (a > b) return (b); 
+    else if (a < b) return (a);
+    else if (a === b) return ("Вы ввели два одинаковых числа");
 }
