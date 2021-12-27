@@ -14,5 +14,5 @@ for ( let i = 0; i < 101; i++) {
         console.log('FizzBuzz'); 
     } else {
         console.log(i); 
-      }
+    }
 }
