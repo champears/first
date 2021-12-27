@@ -7,21 +7,17 @@ var str='';
 for (let i = 0; i < 9; i++) {
  for (let j = 0; j < 9; j++) {
      if ( i % 2 ==1 ) {
-         if ( j % 2 == 0)
-           str += " ";
-
-         else 
-           str += "#";
+         if ( j % 2 == 0) {
+           str += " "; }
+         else { 
+           str += "#"; }
      }
      else {
-         if ( j % 2 == 0)
-           str += "#";
-
-         else 
-           str += " ";
-     }
-      
-     
+         if ( j % 2 == 0) {
+           str += "#"; }
+         else { 
+           str += " "; }
+     }    
  }
  str += "\n";
 }
